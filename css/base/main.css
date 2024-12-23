@@ -1,6 +1,6 @@
 /* STYLES */
 
-@import url(/css/components/button.css);
+@import url(../components/button.css);
 @import url(/css/components/product_card.css);
 @import url(/css/components/feedback_card.css);
 @import url(/css/components/footer.css);
