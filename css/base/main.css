@@ -1,0 +1,170 @@
+/* STYLES */
+
+@import url(/css/components/button.css);
+@import url(/css/components/product_card.css);
+@import url(/css/components/feedback_card.css);
+@import url(/css/components/footer.css);
+@import url(/css/pages/home.css);
+
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Rufina:wght@400;700&display=swap");
+
+
+/* VARIABLES */
+:root {
+    /* Colors */
+    --c-brand: #A3F3BE;
+    --c-brand-light: #C2EFD4;
+    --c-gray: #D9D9D9;
+    --c-orange: #F5D426;
+    --c-white: #fff;
+    --c-green-dark: #267144;
+    --c-green: #328B56;
+    --c-body-green: #224F34;
+    --c-body-black: #373737;
+
+
+    /* Text Configuration */
+    --body-font: "Poppins", sans-serif;
+    --header-font: "Roboto slab", sans-serif;
+    --main-font: "Rufina", sans-serif;
+
+    --fs-body: 1.175rem;
+    --fs-header: 2.9rem;
+    --fs-main: 4.375rem;
+
+    --fw-regular: 400;
+    --fw-medium: 400;
+    --fw-bold: 600;
+
+    --lh-1: 6rem;
+    --lh-2: 4rem;
+    --lh-3: 2.5rem;
+    --lh-4: 1.9rem;
+    --transition: 0.5s ease-out;
+    --box-shadow: 0rem 0rem 0.5rem #d5d4d46d;
+
+}
+
+
+/* GLOBAL STYLES */
+body {
+    font-size: var(--fs-body);
+    padding: 0;
+    margin: 0;
+    font-family: var(--body-font);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-4);
+    background-color: var(--c-white);
+    scroll-behavior: smooth;
+    font-style: normal;
+    overflow-x: hidden;
+    color: var(--c-body-green);
+}
+
+h1 {
+    font-size: var(--fs-main);
+    line-height: var(--lh-1);
+    font-family: var(--main-font);
+    font-weight: var(--fw-bold);
+}
+
+h2 {
+    font-size: var(--fs-header);
+    line-height: var(--lh-2);
+    font-family: var(--header-font);
+    font-weight: var(--fw-bold);
+}
+
+h3 {
+    font-size: 1.83rem;
+    line-height: var(--lh-3);
+    font-family: var(--body-font);
+    font-weight: 600;
+    color: #373737;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--c-body-green);
+}
+
+a:hover {
+    color: var(--c-green);
+
+}
+
+/* HELPERS AND UTILITIES */
+.bg_green_light {
+    background-color: var(--c-brand-light);
+}
+
+.bg_green_dark {
+    background-color: var(--c-body-green);
+}
+
+.text_green_dark {
+    color: var(--c-body-green);
+}
+
+.section__padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+/* RESPONSIVE STYLING (if needed) */
+@media (max-width: 768px) {
+    :root {
+        --fs-body: 1rem;
+        --fs-header: 2rem;
+        --fs-main: 3.5rem;
+
+        --fw-regular: 400;
+        --fw-medium: 400;
+        --fw-bold: 600;
+
+        --lh-1: 4rem;
+        --lh-2: 2.5rem;
+        --lh-3: 1.5rem;
+        --lh-4: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .section__padding {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+@media (max-width: 576px) {
+    :root {
+        --fs-body: 1rem;
+        --fs-header: 2rem;
+        --fs-main: 3.5rem;
+
+        --fw-regular: 400;
+        --fw-medium: 400;
+        --fw-bold: 600;
+
+        --lh-1: 4rem;
+        --lh-2: 2.5rem;
+        --lh-3: 1.5rem;
+        --lh-4: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .section__padding {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}

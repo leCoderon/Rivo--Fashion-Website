@@ -1,0 +1,40 @@
+.feedback__card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    align-items: start;
+    box-shadow: var(--box-shadow);
+}
+
+.feedback__card:hover {
+    background-color: var(--c-brand-light);
+}
+
+.feedback__card .card-text {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    color: #343232;
+    font-weight: var(--fw-medium);
+}
+
+#pagination>a {
+
+    display: flex;
+    padding: 0.7rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.18rem;
+
+}
+
+#pagination>a:hover {
+    background-color: var(--c-brand-light);
+}
+
+#pagination>a.active {
+    background-color: var(--c-brand-light);
+}
+
+#pagination>a img {
+    height: 0.6rem;
+    width: 0.6rem;
+}

@@ -1,0 +1,57 @@
+footer div.container{
+    row-gap: 5rem;
+}
+footer h5.brand_logo {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+footer h5 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-family: var(--header-font);
+}
+
+footer ul li a {
+    color: var(--c-brand-light);
+    font-size: 1rem;
+}
+
+
+footer #newsletter input[type='email'] {
+    border: 0.1rem solid var(--c-brand);
+    outline: none;
+    border-radius: 0.2rem 0 0 0.2rem;
+    color: var(--c-white);
+    background-color: var(--c-body-green);
+}
+
+footer #newsletter input[type='email']::placeholder {
+    color: var(--c-white);
+    font-family: var(--body-font);
+}
+
+footer #newsletter input[type='submit'] {
+    background-color: var(--c-brand);
+    font-weight: var(--fw-medium);
+}
+
+footer #footer_bottom a{
+color: var(--c-white);
+font-size: 1rem;
+}
+
+footer .line{
+    height: 0.1rem;
+    background-color: var(--c-brand);
+}
+
+@media (max-width: 768px) {
+    footer div.container{
+        row-gap: 3rem;
+    }
+
+    footer #footer_bottom{
+        flex-wrap: wrap;
+    }
+}

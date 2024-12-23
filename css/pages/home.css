@@ -1,0 +1,61 @@
+/* HERO */
+
+.hero__text {
+    color: #267D49;
+}
+
+/* BEST SELLING */
+.section__title p {
+    font-weight: 500;
+}
+
+/* PRODUCTS */
+div.categorie ul li a:hover {
+    text-decoration: underline var(--c-body-green);
+    text-underline-offset: 0.65rem;
+    text-decoration-thickness: 0.188rem;
+}
+
+div.categorie ul li a.active {
+    text-decoration: underline var(--c-body-green);
+    text-underline-offset: 0.65rem;
+    text-decoration-thickness: 0.188rem;
+}
+
+/* Exclusive Offer */
+
+
+#offer #counter{
+    column-gap: 1.5rem;
+}
+#offer #counter>div h3 {
+    margin: 0;
+    padding: 0;
+}
+
+#offer #counter>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem 1.5rem;
+    line-height: 1.4rem !important;
+}
+
+
+@media (max-width: 768px) {
+    #offer #counter{
+        column-gap: 0.5rem;
+        flex-wrap: wrap;
+        row-gap: 0.5rem;
+    }
+    #offer #counter>div {
+        padding: 0.5rem 1.3rem;
+        /* width: 100%; */
+    }
+}
+@media (max-width: 320px) {
+    #offer #counter>div {
+        width: 100%;
+    }
+}
