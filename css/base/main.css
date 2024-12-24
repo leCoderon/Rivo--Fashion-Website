@@ -1,10 +1,10 @@
 /* STYLES */
 
 @import url(../components/button.css);
-@import url(/css/components/product_card.css);
-@import url(/css/components/feedback_card.css);
-@import url(/css/components/footer.css);
-@import url(/css/pages/home.css);
+@import url(../components/product_card.css);
+@import url(../components/feedback_card.css);
+@import url(../components/footer.css);
+@import url(../pages/home.css);
 
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Rufina:wght@400;700&display=swap");
